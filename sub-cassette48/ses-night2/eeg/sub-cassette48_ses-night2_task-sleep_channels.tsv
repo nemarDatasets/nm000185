@@ -1,0 +1,8 @@
+name	type	units	sampling_frequency	status
+EEG Fpz-Cz	EEG	uV	100.0	good
+EEG Pz-Oz	EEG	uV	100.0	good
+EOG horizontal	EEG	uV	100.0	good
+Resp oro-nasal	EEG	uV	100.0	good
+EMG submental	EEG	uV	100.0	good
+Temp rectal	EEG	uV	100.0	good
+Event marker	EEG	uV	100.0	good

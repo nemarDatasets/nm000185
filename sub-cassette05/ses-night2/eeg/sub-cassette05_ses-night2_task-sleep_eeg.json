@@ -1,0 +1,23 @@
+{
+  "TaskName": "sleep",
+  "TaskDescription": "Whole-night sleep recording (cassette study). Expert-annotated 30-second sleep staging epochs in events.tsv.",
+  "Instructions": "Sleep naturally",
+  "SamplingFrequency": 100.0,
+  "EEGReference": "Fpz-Cz, Pz-Oz (bipolar derivations)",
+  "PowerLineFrequency": 50,
+  "Manufacturer": "n/a",
+  "RecordingType": "continuous",
+  "RecordingDuration": 84180.0,
+  "EEGChannelCount": 7,
+  "EOGChannelCount": 0,
+  "EMGChannelCount": 0,
+  "MISCChannelCount": 0,
+  "HardwareFilters": "n/a",
+  "SoftwareVersions": "n/a",
+  "DeviceSerialNumber": "n/a",
+  "CogAtlasID": "n/a",
+  "CogPOID": "n/a",
+  "StudyType": "cassette",
+  "OriginalFilename": "SC4052E0-PSG.edf",
+  "SoftwareFilters": "n/a"
+}

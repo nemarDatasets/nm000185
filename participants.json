@@ -1,0 +1,18 @@
+{
+  "participant_id": {
+    "Description": "Subject ID"
+  },
+  "age": {
+    "Description": "Age (not available per-subject; cassette: 25-101y, telemetry: varied)"
+  },
+  "sex": {
+    "Description": "Sex (not available per-subject)"
+  },
+  "study": {
+    "Description": "Study type",
+    "Levels": {
+      "cassette": "Ambulatory 48h recording (healthy subjects)",
+      "telemetry": "Hospital Temazepam drug study"
+    }
+  }
+}

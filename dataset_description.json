@@ -1,0 +1,30 @@
+{
+  "Name": "Sleep-EDF Expanded: Whole-Night PSG Recordings",
+  "BIDSVersion": "1.9.0",
+  "DatasetType": "raw",
+  "License": "ODbL v1.0",
+  "Authors": [
+    "Bob Kemp",
+    "Aeilko H. Zwinderman",
+    "Bert Tuk",
+    "Hilbert A.C. Kamphuisen",
+    "Josefien J.L. Oberye"
+  ],
+  "DatasetDOI": "doi:10.13026/C2X676",
+  "ReferencesAndLinks": [
+    "https://physionet.org/content/sleep-edfx/1.0.0/",
+    "https://doi.org/10.1109/10.867928"
+  ],
+  "HowToAcknowledge": "Cite Kemp et al. (2000) IEEE TBME 47(9) and PhysioNet.",
+  "SourceDatasets": [
+    {
+      "URL": "https://physionet.org/content/sleep-edfx/1.0.0/"
+    }
+  ],
+  "GeneratedBy": [
+    {
+      "Name": "convert_kemp2000.py (EEGDash)",
+      "CodeURL": "https://github.com/bruaristimunha/EEGDash"
+    }
+  ]
+}
