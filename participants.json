@@ -3,16 +3,27 @@
     "Description": "Subject ID"
   },
   "age": {
-    "Description": "Age (not available per-subject; cassette: 25-101y, telemetry: varied)"
+    "Description": "Age at time of recording",
+    "Units": "years"
   },
   "sex": {
-    "Description": "Sex (not available per-subject)"
+    "Description": "Biological sex",
+    "Levels": {
+      "M": "male",
+      "F": "female"
+    }
   },
   "study": {
     "Description": "Study type",
     "Levels": {
-      "cassette": "Ambulatory 48h recording (healthy subjects)",
+      "cassette": "Ambulatory 48h recording (healthy subjects, age 25-101)",
       "telemetry": "Hospital Temazepam drug study"
     }
+  },
+  "placebo_night": {
+    "Description": "Which night was the placebo night (telemetry study only)"
+  },
+  "temazepam_night": {
+    "Description": "Which night was the Temazepam night (telemetry study only)"
   }
 }
