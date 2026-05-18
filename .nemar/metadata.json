@@ -1,0 +1,88 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Bob Kemp": {},
+    "Aeilko H. Zwinderman": {},
+    "Bert Tuk": {},
+    "Hilbert A.C. Kamphuisen": {},
+    "Josefien J.L. Oberye": {}
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.1109/10.867928",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000185",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000185",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    }
+  ],
+  "title": "Sleep-EDF Expanded: Whole-Night PSG Recordings",
+  "license": "ODbL v1.0",
+  "dataset_type": "raw",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "8.7 GB (198 files)"
+  ],
+  "formats": [
+    ".edf",
+    ".json",
+    ".py",
+    ".tsv",
+    ".yml"
+  ],
+  "description": "Sleep-EDF Expanded is a collection of 197 whole-night polysomnographic recording sessions from 100 healthy subjects and drug study participants, comprising ambulatory 48-hour cassette recordings (78 subjects) and telemetry-based studies (22 subjects). The dataset includes electroencephalography, electrooculography, and electromyography signals sampled at 100 Hz, with expert-annotated sleep stage classifications for 30-second epochs according to both AASM and Rechtschaffen & Kales standards. This resource provides a comprehensive foundation for sleep research, algorithm development, and validation of automated sleep staging methods.",
+  "methods_description": "Polysomnographic recordings were acquired using two study designs: a cassette study with 78 healthy subjects undergoing ambulatory 48-hour recordings, and a telemetry study with 22 subjects participating in a Temazepam drug study. Recorded signals include EEG (Fpz-Cz and Pz-Oz at 100 Hz), horizontal EOG, submental EMG, and in some recordings, respiration and temperature. Sleep stages were manually annotated by experts in 30-second epochs using both AASM and Rechtschaffen & Kales classification systems.",
+  "keywords": [
+    {
+      "term": "Polysomnography",
+      "subject_scheme": "MeSH",
+      "value_uri": "https://id.nlm.nih.gov/mesh/D017286"
+    },
+    {
+      "term": "sleep stages"
+    },
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "https://id.nlm.nih.gov/mesh/D004569"
+    },
+    {
+      "term": "sleep medicine"
+    },
+    {
+      "term": "automated sleep staging"
+    },
+    {
+      "term": "sleep staging"
+    },
+    {
+      "term": "EOG"
+    },
+    {
+      "term": "EMG"
+    },
+    {
+      "term": "Temazepam"
+    },
+    {
+      "term": "drug study"
+    }
+  ],
+  "source_hash": "84fab2bdf541dbe7d72fa126ff74d8811feeedcd5f4a98a13ac8d7f11c47e048"
+}
