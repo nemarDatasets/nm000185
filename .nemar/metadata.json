@@ -1,6 +1,11 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
+  "title": "Sleep-EDF Expanded: Whole-Night PSG Recordings",
+  "description": "Sleep-EDF Expanded is a comprehensive polysomnographic dataset comprising 197 whole-night recordings from healthy subjects and drug study participants. The dataset includes EEG, EOG, EMG, and respiratory signals sampled at 100 Hz, with expert-annotated sleep stages assigned to 30-second epochs according to AASM criteria. This resource serves as a benchmark for sleep stage classification, sleep physiology research, and algorithm development in automated sleep analysis.",
+  "methods_description": "Polysomnographic recordings were collected from two studies: a cassette study with 78 healthy subjects undergoing ambulatory 48-hour recordings, and a telemetry study with 22 subjects in a Temazepam drug study. Recorded signals include EEG (Fpz-Cz and Pz-Oz at 100 Hz), horizontal EOG, submental EMG, and in some recordings, respiration and temperature. Sleep stages were manually annotated by experts in 30-second epochs using AASM criteria (Wake, N1, N2, N3, REM, Unknown), with original Rechtschaffen & Kales stages preserved.",
+  "license": "ODbL v1.0",
+  "dataset_type": "raw",
   "authors": {
     "Bob Kemp": {},
     "Aeilko H. Zwinderman": {},
@@ -8,6 +13,30 @@
     "Hilbert A.C. Kamphuisen": {},
     "Josefien J.L. Oberye": {}
   },
+  "keywords": [
+    {
+      "term": "Polysomnography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D017286"
+    },
+    {
+      "term": "Sleep Stages",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D012894"
+    },
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "electrooculography"
+    },
+    {
+      "term": "electromyography"
+    },
+    {
+      "term": "sleep classification"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.1109/10.867928",
@@ -23,66 +52,28 @@
       "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000185",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.13026/C2X676",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
-  "title": "Sleep-EDF Expanded: Whole-Night PSG Recordings",
-  "license": "ODbL v1.0",
-  "dataset_type": "raw",
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
     "8.7 GB (198 files)"
   ],
   "formats": [
     ".edf",
     ".json",
+    ".md",
     ".py",
     ".tsv",
     ".yml"
   ],
-  "description": "Sleep-EDF Expanded is a collection of 197 whole-night polysomnographic recording sessions from 100 healthy subjects and drug study participants, comprising ambulatory 48-hour cassette recordings (78 subjects) and telemetry-based studies (22 subjects). The dataset includes electroencephalography, electrooculography, and electromyography signals sampled at 100 Hz, with expert-annotated sleep stage classifications for 30-second epochs according to both AASM and Rechtschaffen & Kales standards. This resource provides a comprehensive foundation for sleep research, algorithm development, and validation of automated sleep staging methods.",
-  "methods_description": "Polysomnographic recordings were acquired using two study designs: a cassette study with 78 healthy subjects undergoing ambulatory 48-hour recordings, and a telemetry study with 22 subjects participating in a Temazepam drug study. Recorded signals include EEG (Fpz-Cz and Pz-Oz at 100 Hz), horizontal EOG, submental EMG, and in some recordings, respiration and temperature. Sleep stages were manually annotated by experts in 30-second epochs using both AASM and Rechtschaffen & Kales classification systems.",
-  "keywords": [
-    {
-      "term": "Polysomnography",
-      "subject_scheme": "MeSH",
-      "value_uri": "https://id.nlm.nih.gov/mesh/D017286"
-    },
-    {
-      "term": "sleep stages"
-    },
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "Electroencephalography",
-      "subject_scheme": "MeSH",
-      "value_uri": "https://id.nlm.nih.gov/mesh/D004569"
-    },
-    {
-      "term": "sleep medicine"
-    },
-    {
-      "term": "automated sleep staging"
-    },
-    {
-      "term": "sleep staging"
-    },
-    {
-      "term": "EOG"
-    },
-    {
-      "term": "EMG"
-    },
-    {
-      "term": "Temazepam"
-    },
-    {
-      "term": "drug study"
-    }
-  ],
-  "source_hash": "84fab2bdf541dbe7d72fa126ff74d8811feeedcd5f4a98a13ac8d7f11c47e048"
+  "source_hash": "654412e81ec7a99108180f137aa965ee015abd5f6a1f3123dca2087f03f3c5e1"
 }
