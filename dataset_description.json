@@ -10,7 +10,7 @@
     "Hilbert A.C. Kamphuisen",
     "Josefien J.L. Oberye"
   ],
-  "DatasetDOI": "doi:10.13026/C2X676",
+  "DatasetDOI": "10.82901/nemar.nm000185",
   "ReferencesAndLinks": [
     "https://physionet.org/content/sleep-edfx/1.0.0/",
     "https://doi.org/10.1109/10.867928"
@@ -19,6 +19,9 @@
   "SourceDatasets": [
     {
       "URL": "https://physionet.org/content/sleep-edfx/1.0.0/"
+    },
+    {
+      "DOI": "doi:10.13026/C2X676"
     }
   ],
   "GeneratedBy": [
@@ -26,5 +29,6 @@
       "Name": "convert_kemp2000.py (EEGDash)",
       "CodeURL": "https://github.com/bruaristimunha/EEGDash"
     }
-  ]
+  ],
+  "Version": "1.0.0"
 }
